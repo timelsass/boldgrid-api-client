@@ -1,0 +1,19 @@
+{
+    "name": "boldgrid/reseller-api",
+    "description": "PHP Client for BoldGrid Reseller API",
+    "type": "library",
+    "license": "GPL2.0",
+    "authors": [
+        {
+            "name": "Tim Elsass",
+            "email": "dev@tim.ph",
+            "homepage": "http://tim.ph",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Boldgrid\\Reseller\\": "src"
+        }
+    }
+}
