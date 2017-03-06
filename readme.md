@@ -3,7 +3,7 @@
 Using composer, you can get started quickly:
 
 ```php
-$ composer install boldgrid/reseller-api
+$ composer require boldgrid/reseller-api
 ```
 
 
