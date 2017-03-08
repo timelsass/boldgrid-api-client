@@ -1,6 +1,6 @@
 {
-    "name": "boldgrid/reseller-api",
-    "description": "PHP Client for BoldGrid Reseller API",
+    "name": "boldgrid/api",
+    "description": "SDK for the BoldGrid API",
     "type": "library",
     "license": "GPL2.0",
     "authors": [
