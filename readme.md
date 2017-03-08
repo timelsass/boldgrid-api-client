@@ -1,9 +1,9 @@
-# BoldGrid Reseller API Client
+# BoldGrid API PHP SDK
 
 Using composer, you can get started quickly:
 
 ```php
-$ composer require boldgrid/reseller-api
+$ composer require boldgrid/api
 ```
 
 
