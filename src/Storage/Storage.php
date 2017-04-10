@@ -5,7 +5,7 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Storage;
+namespace Boldgrid\Api\Storage;
 
 /**
  * Describes how to get and set items from storage.

@@ -5,7 +5,7 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Auth;
+namespace Boldgrid\Api\Auth;
 
 /**
  * Basic authorization for BoldGrid Reseller API.

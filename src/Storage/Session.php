@@ -5,9 +5,9 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Storage;
+namespace Boldgrid\Api\Storage;
 
-use Boldgrid\Reseller\Storage\Storage;
+use Boldgrid\Api\Storage\Storage;
 
 /**
  * This contains the logic for retrieving and setting

@@ -5,7 +5,7 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller;
+namespace Boldgrid\Api;
 
 /**
  * Make cURL calls for API requests.

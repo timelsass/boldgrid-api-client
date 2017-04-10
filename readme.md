@@ -16,7 +16,7 @@ require __DIR__ . '/vendor/autoload.php';
 Now you can start using the API.  The examples below will assume that your using the namespaces:
 
 ```php
-use Boldgrid\Reseller\Boldgrid;
+use Boldgrid\Api\Boldgrid;
 ```
 
 
@@ -29,7 +29,7 @@ $api = new Boldgrid();
 The endpoint is pointing to production, but you can easily switch this to the Reseller API sandbox endpoints by passing in the sandbox instance to the new Boldgrid constructor like this:
 
 ```php
-use Boldgrid\Reseller\Environment\Sandbox;
+use Boldgrid\Api\Environment\Sandbox;
 
 $api = new Boldgrid( new Sandbox );
 ```
@@ -37,7 +37,7 @@ $api = new Boldgrid( new Sandbox );
 Alternatively, you can this syntax to accomplish the same goal:
 
 ```php
-use Boldgrid\Reseller\Environment\Sandbox;
+use Boldgrid\Api\Environment\Sandbox;
 
 $api = new Boldgrid();
 $api = $api->setEnvironment( new Sandbox );
@@ -46,8 +46,8 @@ $api = $api->setEnvironment( new Sandbox );
 The calls will utilize token based authentication and look for stored responses in the session data.  You can choose to store the data in memcache instead by passing an instance of a class utilizing the Storage interface.  This example shows how to set the storage to use Memcache instead of Session:
 
 ```php
-use Boldgrid\Reseller\Environment;
-use Boldgrid\Reseller\Storage;
+use Boldgrid\Api\Environment;
+use Boldgrid\Api\Storage;
 
 $api = new Boldgrid( new Environment\Sandbox, new Storage\Memcache );
 ```
@@ -55,8 +55,8 @@ $api = new Boldgrid( new Environment\Sandbox, new Storage\Memcache );
 Alternatively you can use the following syntax to accomplish the same thing:
 
 ```php
-use Boldgrid\Reseller\Environment\Sandbox;
-use Boldgrid\Reseller\Storage\Memcache;
+use Boldgrid\Api\Environment\Sandbox;
+use Boldgrid\Api\Storage\Memcache;
 
 $api = $api
 	->setEnvironment( new Sandbox )
@@ -102,9 +102,9 @@ Here's an example that sets the environment to the sandbox API, uses token autho
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use Boldgrid\Reseller\Boldgrid;
-use Boldgrid\Reseller\Environment\Sandbox;
-use Boldgrid\Reseller\Storage\Memcache;
+use Boldgrid\Api\Boldgrid;
+use Boldgrid\Api\Environment\Sandbox;
+use Boldgrid\Api\Storage\Memcache;
 
 $api = new Boldgrid();
 $api = $api

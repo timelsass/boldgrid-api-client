@@ -5,7 +5,7 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Environment;
+namespace Boldgrid\Api\Environment;
 
 /**
  * Describes how to implement new environments

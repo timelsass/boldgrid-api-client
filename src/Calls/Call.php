@@ -5,9 +5,9 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Calls;
+namespace Boldgrid\Api\Calls;
 
-use Boldgrid\Reseller\Curl;
+use Boldgrid\Api\Curl;
 
 use \Exception;
 use \RuntimeException;

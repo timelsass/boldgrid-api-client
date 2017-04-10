@@ -11,15 +11,15 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller;
+namespace Boldgrid\Api;
 
-use Boldgrid\Reseller\Environment\Environment;
-use Boldgrid\Reseller\Environment\Production;
+use Boldgrid\Api\Environment\Environment;
+use Boldgrid\Api\Environment\Production;
 
-use Boldgrid\Reseller\Storage\Storage;
-use Boldgrid\Reseller\Storage\Session;
+use Boldgrid\Api\Storage\Storage;
+use Boldgrid\Api\Storage\Session;
 
-use Boldgrid\Reseller\Auth;
+use Boldgrid\Api\Auth;
 
 /**
  * Kicks off BoldGrid Reseller API requests.

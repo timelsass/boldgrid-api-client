@@ -5,7 +5,7 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Calls;
+namespace Boldgrid\Api\Calls;
 
 class Auth extends Call {
 

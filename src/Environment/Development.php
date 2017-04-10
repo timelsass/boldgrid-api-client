@@ -5,9 +5,9 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Environment;
+namespace Boldgrid\Api\Environment;
 
-use Boldgrid\Reseller\Environment\Environment;
+use Boldgrid\Api\Environment\Environment;
 
 /**
  * Sets up the required paramenters for the development

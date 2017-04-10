@@ -5,10 +5,10 @@
  * @author Tim Elsass <dev@tim.ph>
  */
 
-namespace Boldgrid\Reseller\Auth;
+namespace Boldgrid\Api\Auth;
 
-use Boldgrid\Reseller\Boldgrid;
-use Boldgrid\Reseller\Environment\Environment;
+use Boldgrid\Api\Boldgrid;
+use Boldgrid\Api\Environment\Environment;
 
 /**
  * Token based authorization for the BoldGrid
